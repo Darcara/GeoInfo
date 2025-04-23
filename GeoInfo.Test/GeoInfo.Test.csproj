@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsPackable>false</IsPackable>
+        <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="coverlet.collector" Version="6.0.4">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="CsvHelper" Version="33.0.1"/>
+        <PackageReference Include="FluentAssertions" Version="8.2.0" PrivateAssets="all" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" PrivateAssets="all" />
+        <PackageReference Include="Neco.Common" Version="0.2.1" />
+        <PackageReference Include="NUnit" Version="4.3.2" PrivateAssets="all"/>
+        <PackageReference Include="NUnit.Analyzers" Version="4.7.0" PrivateAssets="all">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="NUnit3TestAdapter" Version="5.0.0" PrivateAssets="all" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Using Include="NUnit.Framework"/>
+        <Using Include="NUnit.Framework"/>
+        <Using Include="FluentAssertions"/>
+        <Using Include="System"/>
+        <Using Include="System.Collections.Generic"/>
+        <Using Include="System.IO"/>
+        <Using Include="System.Linq"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\GeoInfo\GeoInfo.csproj" />
+    </ItemGroup>
+
+</Project>

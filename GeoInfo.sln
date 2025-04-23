@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoInfo", "GeoInfo\GeoInfo.csproj", "{43909911-EB96-4A66-A525-9D25DA7736E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoInfo.Generator", "GeoInfo.Generator\GeoInfo.Generator.csproj", "{8202F32A-68B5-4D21-BDCE-A3E2FE031E09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoInfo.Test", "GeoInfo.Test\GeoInfo.Test.csproj", "{DEC0A58D-1A27-4BDF-83F4-A795E65594B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43909911-EB96-4A66-A525-9D25DA7736E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43909911-EB96-4A66-A525-9D25DA7736E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43909911-EB96-4A66-A525-9D25DA7736E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43909911-EB96-4A66-A525-9D25DA7736E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8202F32A-68B5-4D21-BDCE-A3E2FE031E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8202F32A-68B5-4D21-BDCE-A3E2FE031E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8202F32A-68B5-4D21-BDCE-A3E2FE031E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8202F32A-68B5-4D21-BDCE-A3E2FE031E09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEC0A58D-1A27-4BDF-83F4-A795E65594B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC0A58D-1A27-4BDF-83F4-A795E65594B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC0A58D-1A27-4BDF-83F4-A795E65594B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC0A58D-1A27-4BDF-83F4-A795E65594B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

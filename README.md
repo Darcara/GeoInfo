@@ -6,6 +6,8 @@ All enums have the value ``0`` as ``Uninitialized``
 
 # ISO639 Language
 
+The `Language` enum contains 7319 languages.
+
 ```csharp
 // Every language is available in the Language-enum
 Language l = Language.English;
@@ -38,8 +40,13 @@ There are a few ``SpecialLanguageCodes`` as defined by the standard
 * ``Language.Uninitialized`` - The zero (0) enum value
 * ``Language.Uncoded_languages`` - not used
 * ``Language.Multiple_languages``  - not used
-* ``Language.Undetermined`` - returned by the `GetLanguageByCode` if the language code did not match any known language 
+* ``Language.Undetermined`` - returned by `GetLanguageByCode` for unknown language codes 
 * ``Language.No_linguistic_content`` - not used
 
 # ISO3166 Countries
+
+The `Country` enum contains 252 countries.
+
 # ISO4217 Currency
+
+The `Currency` enum contains 171 currencies.

@@ -1,5 +1,8 @@
 ﻿Enums for ISO languages, countries and currencies
 
+[![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/IsoEnums)](https://www.nuget.org/packages/IsoEnums/)
+![GitHub License](https://img.shields.io/github/license/darcara/IsoEnums)
+
 # Common
 
 All enums have the value ``0`` as ``Uninitialized``

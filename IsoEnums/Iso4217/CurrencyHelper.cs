@@ -1,4 +1,4 @@
-﻿namespace GeoInfo.Iso4217;
+﻿namespace IsoEnums.Iso4217;
 
 using System.Collections.Frozen;
 

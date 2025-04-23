@@ -1,4 +1,4 @@
-﻿namespace GeoInfo.Iso639;
+﻿namespace IsoEnums.Iso639;
 
 public static class LanguageExtensions {
 	public static Boolean Has2Code(this Language language) {

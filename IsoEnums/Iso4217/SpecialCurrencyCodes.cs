@@ -1,4 +1,5 @@
-﻿namespace GeoInfo.Iso4217;
+﻿namespace IsoEnums.Iso4217;
+
 
 public static class SpecialCurrencyCodes {
 	/// <inheritdoc cref="Currency.NotACurrency"/> 

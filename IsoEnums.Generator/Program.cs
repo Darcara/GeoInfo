@@ -1,13 +1,9 @@
-﻿namespace GeoInfo.Generator;
+﻿namespace IsoEnums.Generator;
 
-using System;
 using System.Collections.Frozen;
-using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
-using System.IO;
 using System.IO.Compression;
-using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -15,8 +11,8 @@ using System.Threading.Tasks;
 using System.Xml.Serialization;
 using CsvHelper;
 using CsvHelper.Configuration;
-using GeoInfo.Iso4217;
-using GeoInfo.Iso639;
+using IsoEnums.Iso4217;
+using IsoEnums.Iso639;
 
 public static partial class Program {
 	public static async Task Main(String[] args) {
@@ -25,9 +21,9 @@ public static partial class Program {
 		ParseCountryData();
 		ParseCurrencyData();
 
-		Generate639LanguageEnum("../../../../GeoInfo/Iso639/Language.cs");
-		Generate3166CountryEnum("../../../../GeoInfo/Iso3166/Country.cs");
-		Generate4217CurrencyEnum("../../../../GeoInfo/Iso4217/Currency.cs");
+		Generate639LanguageEnum("../../../../IsoEnums/Iso639/Language.cs");
+		Generate3166CountryEnum("../../../../IsoEnums/Iso3166/Country.cs");
+		Generate4217CurrencyEnum("../../../../IsoEnums/Iso4217/Currency.cs");
 	}
 
 	private static List<CurrencyEntry> Currencies { get; set; } = null!;
@@ -97,7 +93,7 @@ public static partial class Program {
 	private static void Generate4217CurrencyEnum(String? fileoutput) {
 		StringBuilder sb = new();
 		AppendDefaultHeader(sb);
-		sb.AppendLine("namespace GeoInfo.Iso4217;");
+		sb.AppendLine("namespace IsoEnums.Iso4217;");
 		sb.AppendLine("#region Designer generated code");
 		sb.AppendLine("public enum Currency {");
 		sb.AppendLine("///<summary>Not a currency.</summary>");
@@ -162,7 +158,7 @@ public static partial class Program {
 	private static void Generate3166CountryEnum(String? fileoutput) {
 		StringBuilder sb = new();
 		AppendDefaultHeader(sb);
-		sb.AppendLine("namespace GeoInfo.Iso3166;");
+		sb.AppendLine("namespace IsoEnums.Iso3166;");
 		sb.AppendLine("#region Designer generated code");
 		sb.AppendLine("public enum Country {");
 		sb.AppendLine("///<summary>Not a country.</summary>");
@@ -257,7 +253,7 @@ public static partial class Program {
 	private static void Generate639LanguageEnum(String? fileoutput) {
 		StringBuilder sb = new();
 		AppendDefaultHeader(sb);
-		sb.AppendLine("namespace GeoInfo.Iso639;");
+		sb.AppendLine("namespace IsoEnums.Iso639;");
 		sb.AppendLine("#region Designer generated code");
 		sb.AppendLine("public enum Language {");
 		sb.AppendLine("///<summary>Not a language, but instead an uninitialized variable</summary>");

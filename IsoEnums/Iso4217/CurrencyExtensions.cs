@@ -1,4 +1,4 @@
-﻿namespace GeoInfo.Iso4217;
+﻿namespace IsoEnums.Iso4217;
 
 public static class CurrencyExtensions {
 	public static String Get3Code(this Currency currency) {

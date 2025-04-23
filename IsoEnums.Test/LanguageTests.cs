@@ -1,6 +1,6 @@
-﻿namespace GeoInfo.Test;
+﻿namespace IsoEnums.Test;
 
-using GeoInfo.Iso639;
+using IsoEnums.Iso639;
 using Neco.Common.Helper;
 
 [TestFixture]

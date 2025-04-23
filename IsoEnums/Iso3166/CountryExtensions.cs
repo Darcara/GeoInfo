@@ -1,4 +1,4 @@
-﻿namespace GeoInfo.Iso3166;
+﻿namespace IsoEnums.Iso3166;
 
 public static class CountryExtensions {
 	public static Boolean Has2Code(this Country country) {

@@ -1,6 +1,4 @@
-﻿namespace GeoInfo.Test;
-
-using GeoInfo;
+﻿namespace IsoEnums.Test;
 
 [TestFixture]
 public class GeoDataInfoTests {

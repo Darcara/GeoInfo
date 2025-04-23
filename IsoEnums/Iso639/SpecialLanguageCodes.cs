@@ -1,4 +1,5 @@
-﻿namespace GeoInfo.Iso639;
+﻿namespace IsoEnums.Iso639;
+
 
 public static class SpecialLanguageCodes {
 	/// <inheritdoc cref="Language.Uncoded_languages"/> 

@@ -1,7 +1,6 @@
-﻿namespace GeoInfo.Generator;
+﻿namespace IsoEnums.Generator;
 
 using System.Net.Http;
-using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 
 internal static class Helper {

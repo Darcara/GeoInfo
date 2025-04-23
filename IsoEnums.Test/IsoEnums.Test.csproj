@@ -36,7 +36,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\GeoInfo\GeoInfo.csproj" />
+      <ProjectReference Include="..\IsoEnums\IsoEnums.csproj" />
     </ItemGroup>
 
 </Project>

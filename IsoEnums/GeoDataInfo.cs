@@ -1,4 +1,4 @@
-﻿namespace GeoInfo;
+﻿namespace IsoEnums;
 
 using System.Globalization;
 

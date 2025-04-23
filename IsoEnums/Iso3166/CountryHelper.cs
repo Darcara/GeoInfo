@@ -1,7 +1,6 @@
-﻿namespace GeoInfo.Iso3166;
+﻿namespace IsoEnums.Iso3166;
 
 using System.Collections.Frozen;
-using GeoInfo.Iso639;
 
 public static class CountryHelper {
 	public const String Unavailable2 = "??";
